@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="340" viewBox="0 0 1200 340">
+<defs><linearGradient id="ember" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect"><stop offset="0" stop-color="#FF6D3A"/><stop offset="0.55" stop-color="#FBBF24"/><stop offset="1" stop-color="#FDE68A"/><animateTransform attributeName="gradientTransform" type="translate" values="0 0;0.6 0;0 0" dur="7s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="emberS" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF6D3A"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0C0A09"/><stop offset="1" stop-color="#1C1412"/></linearGradient>
+<pattern id="canvas" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#2E2522"/></pattern>
+<filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><clipPath id="frame"><rect width="1200" height="340" rx="24"/></clipPath><style>.mono{font-family:'JetBrains Mono','Fira Code',Consolas,Menlo,monospace}
+.sans{font-family:'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif}
+.live{animation:live 1.5s ease-in-out infinite} @keyframes live{50%{opacity:.25}}
+.wire{stroke-dasharray:3 7;animation:flow .9s linear infinite} @keyframes flow{to{stroke-dashoffset:-20}}
+.rise{animation:rise .9s cubic-bezier(.2,.8,.2,1) both} .r2{animation-delay:.2s} .r3{animation-delay:.4s} .r4{animation-delay:.6s} .r5{animation-delay:.8s}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.nd{animation:ping 3s ease-in-out infinite} .k2{animation-delay:.6s} .k3{animation-delay:1.2s} .k4{animation-delay:1.8s} .k5{animation-delay:2.4s}
+@keyframes ping{0%,100%{stroke:#3A2F2B}20%{stroke:#FF8A50}40%{stroke:#3A2F2B}}</style></defs>
+<g clip-path="url(#frame)"><rect width="1200" height="340" fill="url(#bg)"/><rect width="1200" height="340" fill="url(#canvas)"/>
+<radialGradient id="heat"><stop offset="0" stop-color="#FF6D3A" stop-opacity=".22"/><stop offset="1" stop-color="#FF6D3A" stop-opacity="0"/></radialGradient><circle cx="990" cy="170" r="280" fill="url(#heat)"/>
+<g class="rise"><defs><path id="ringh" d="M48.0,150 a70.0,70.0 0 1,1 140.0,0 a70.0,70.0 0 1,1 -140.0,0"/></defs>
+<circle cx="118" cy="150" r="60.0" fill="#14100E" stroke="#3A2F2B" stroke-width="1.875"/>
+<g><text class="mono" font-size="11.9" letter-spacing="3.2" fill="#A8A29E"><textPath xlink:href="#ringh" href="#ringh">AI · AUTOMATION · ENGINEER · AI · AUTOMATION · ENGINEER ·</textPath></text><animateTransform attributeName="transform" type="rotate" from="0 118 150" to="360 118 150" dur="24s" repeatCount="indefinite"/></g>
+<path d="M88.0 125.0 L118 180.0" stroke="#3A2F2B" stroke-width="8.75" stroke-linecap="round"/>
+<path class="wire" d="M88.0 125.0 L118 180.0" stroke="url(#emberS)" stroke-width="5.0" stroke-linecap="round"/>
+<path d="M148.0 125.0 L118 180.0" stroke="#3A2F2B" stroke-width="8.75" stroke-linecap="round"/>
+<path class="wire" d="M148.0 125.0 L118 180.0" stroke="url(#emberS)" stroke-width="5.0" stroke-linecap="round"/>
+<circle cx="88.0" cy="125.0" r="12.5" fill="#1F1917" stroke="#FF8A50" stroke-width="3.75"/>
+<circle cx="148.0" cy="125.0" r="12.5" fill="#1F1917" stroke="#FF8A50" stroke-width="3.75"/>
+<circle cx="118" cy="180.0" r="16.25" fill="url(#emberS)" filter="url(#soft)"/>
+<circle cx="118" cy="180.0" r="6.25" fill="#0C0A09"/>
+<circle r="4.375" fill="#FDE68A"><animateMotion dur="2.4s" repeatCount="indefinite" path="M88.0 125.0 L118 180.0"/></circle>
+<circle r="4.375" fill="#FDE68A"><animateMotion dur="2.4s" begin="1.2s" repeatCount="indefinite" path="M148.0 125.0 L118 180.0"/></circle></g>
+<text x="222" y="86" class="mono rise" font-size="16" letter-spacing="9" fill="#A8A29E">V A N S H</text>
+<rect x="222" y="98" width="62" height="3" rx="1.5" fill="#FF6D3A" class="rise"/>
+<text x="216" y="168" class="sans rise r2" font-size="62" font-weight="900" fill="#F5F5F4" letter-spacing="1">AI AUTOMATION</text>
+<text x="216" y="236" class="sans rise r3" font-size="62" font-weight="900" fill="url(#ember)" letter-spacing="1">ENGINEER</text>
+<text x="222" y="276" class="sans rise r4" font-size="20" font-weight="600" fill="#E7E5E4">I automate the boring parts of sales.</text>
+<text x="222" y="306" class="mono rise r5" font-size="13" fill="#78716C">n8n · AI Agents · LLMs · CRM &amp; Lead-Gen · New Delhi, IN</text>
+<rect x="40" y="250" width="156" height="26" rx="13" fill="#13201A" stroke="#34D399" stroke-opacity=".45"/>
+<circle class="live" cx="58" cy="263" r="4.5" fill="#34D399"/><text x="70" y="267" class="mono" font-size="11" fill="#86EFAC">available to hire</text>
+<path d="M856 170 H894" fill="none" stroke="#3A2F2B" stroke-width="2.2"/><path class="wire" d="M856 170 H894" fill="none" stroke="#FF8A50" stroke-width="2.2"/>
+<path d="M946 170 H984" fill="none" stroke="#3A2F2B" stroke-width="2.2"/><path class="wire" d="M946 170 H984" fill="none" stroke="#FF8A50" stroke-width="2.2"/>
+<path d="M1036 170 C1060 170,1052 112,1076 112" fill="none" stroke="#3A2F2B" stroke-width="2.2"/><path class="wire" d="M1036 170 C1060 170,1052 112,1076 112" fill="none" stroke="#FBBF24" stroke-width="2.2"/>
+<path d="M1036 170 C1060 170,1052 228,1076 228" fill="none" stroke="#3A2F2B" stroke-width="2.2"/><path class="wire" d="M1036 170 C1060 170,1052 228,1076 228" fill="none" stroke="#78716C" stroke-width="2.2"/>
+<rect class="nd" x="804" y="144" width="52" height="52" rx="26" fill="#1F1917" stroke="#3A2F2B" stroke-width="2"/><text x="830" y="178" class="sans" font-size="22" text-anchor="middle">⚡</text><text x="830" y="214" class="mono" font-size="10.5" fill="#A8A29E" text-anchor="middle">Trigger</text>
+<rect class="nd k2" x="894" y="144" width="52" height="52" rx="10" fill="#1F1917" stroke="#3A2F2B" stroke-width="2"/><text x="920" y="178" class="sans" font-size="22" text-anchor="middle">🕷️</text><text x="920" y="214" class="mono" font-size="10.5" fill="#A8A29E" text-anchor="middle">Scrape</text>
+<rect class="nd k3" x="984" y="144" width="52" height="52" rx="10" fill="#1F1917" stroke="#3A2F2B" stroke-width="2"/><text x="1010" y="178" class="sans" font-size="22" text-anchor="middle">🔀</text><text x="1010" y="214" class="mono" font-size="10.5" fill="#A8A29E" text-anchor="middle">Qualify</text>
+<rect class="nd k4" x="1076" y="86" width="52" height="52" rx="10" fill="#1F1917" stroke="#3A2F2B" stroke-width="2"/><text x="1102" y="120" class="sans" font-size="22" text-anchor="middle">🧠</text><text x="1102" y="156" class="mono" font-size="10.5" fill="#A8A29E" text-anchor="middle">AI → CRM</text>
+<rect class="nd k5" x="1076" y="202" width="52" height="52" rx="10" fill="#1F1917" stroke="#3A2F2B" stroke-width="2" stroke-dasharray="4 4"/><text x="1102" y="236" class="sans" font-size="22" text-anchor="middle">🗃️</text><text x="1102" y="272" class="mono" font-size="10.5" fill="#A8A29E" text-anchor="middle">Skip</text>
+<circle r="4.5" fill="#FDE68A" filter="url(#soft)"><animateMotion dur="3.6s" repeatCount="indefinite" path="M830 170 H1010 C1060 170,1052 112,1102 112"/></circle>
+<text x="1160" y="312" class="mono" font-size="11" fill="#57534E" text-anchor="end">✓ workflow active · 2,000+ leads / week</text></g></svg>
