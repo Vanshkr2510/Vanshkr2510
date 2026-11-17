@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170">
+  <defs>
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code',Consolas,Menlo,monospace; }
+      .sans { font-family: 'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif; }
+      .ring { animation: fillring 2s cubic-bezier(.2,.8,.2,1) both; }
+      .g2 { animation-delay: .3s; } .g3 { animation-delay: .6s; }
+      @keyframes fillring { from { stroke-dashoffset: 226; } }
+      .spin { transform-origin: 70px 85px; animation: spin 8s linear infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .live { animation: live 1.5s ease-in-out infinite; }
+      @keyframes live { 50% { opacity: .25; } }
+    </style>
+  </defs>
+
+  <!-- panel 1 -->
+  <g>
+    <rect x="1" y="1" width="282" height="168" rx="20" fill="#14100E" stroke="#2E2522"/>
+    <g transform="translate(70 85) rotate(-90)">
+      <circle r="36" fill="none" stroke="#2E2522" stroke-width="9"/>
+      <circle class="ring" r="36" fill="none" stroke="#FF6D3A" stroke-width="9" stroke-linecap="round" stroke-dasharray="226" stroke-dashoffset="18"/>
+    </g>
+    <text x="70" y="92" class="sans" font-size="20" text-anchor="middle">🎯</text>
+    <text x="126" y="80" class="sans" font-size="34" font-weight="800" fill="#FF8A50">2,000+</text>
+    <text x="126" y="104" class="mono" font-size="12" fill="#D6D3D1">qualified leads</text>
+    <text x="126" y="122" class="mono" font-size="12" fill="#78716C">every week</text>
+  </g>
+  <!-- panel 2 -->
+  <g transform="translate(306 0)">
+    <rect x="1" y="1" width="282" height="168" rx="20" fill="#14100E" stroke="#2E2522"/>
+    <g transform="translate(70 85) rotate(-90)">
+      <circle r="36" fill="none" stroke="#2E2522" stroke-width="9"/>
+      <circle class="ring g2" r="36" fill="none" stroke="#FBBF24" stroke-width="9" stroke-linecap="round" stroke-dasharray="226" stroke-dashoffset="45"/>
+    </g>
+    <text x="70" y="92" class="sans" font-size="20" text-anchor="middle">⏱️</text>
+    <text x="126" y="80" class="sans" font-size="34" font-weight="800" fill="#FCD34D">50+ hrs</text>
+    <text x="126" y="104" class="mono" font-size="12" fill="#D6D3D1">research saved</text>
+    <text x="126" y="122" class="mono" font-size="12" fill="#78716C">every week</text>
+  </g>
+  <!-- panel 3 -->
+  <g transform="translate(612 0)">
+    <rect x="1" y="1" width="282" height="168" rx="20" fill="#14100E" stroke="#2E2522"/>
+    <g transform="translate(70 85) rotate(-90)">
+      <circle r="36" fill="none" stroke="#2E2522" stroke-width="9"/>
+      <circle class="ring g3" r="36" fill="none" stroke="#FDE68A" stroke-width="9" stroke-linecap="round" stroke-dasharray="226" stroke-dashoffset="30"/>
+    </g>
+    <text x="70" y="92" class="sans" font-size="20" text-anchor="middle">👥</text>
+    <text x="126" y="80" class="sans" font-size="34" font-weight="800" fill="#FDE68A">15+</text>
+    <text x="126" y="104" class="mono" font-size="12" fill="#D6D3D1">reps run on my CRM</text>
+    <text x="126" y="122" class="mono" font-size="12" fill="#78716C">every day</text>
+  </g>
+  <!-- panel 4 -->
+  <g transform="translate(918 0)">
+    <rect x="1" y="1" width="280" height="168" rx="20" fill="#14100E" stroke="#2E2522"/>
+    <g class="spin">
+      <circle cx="70" cy="85" r="36" fill="none" stroke="#34D399" stroke-width="3" stroke-dasharray="10 12" stroke-opacity=".7"/>
+    </g>
+    <circle class="live" cx="70" cy="85" r="10" fill="#34D399"/>
+    <text x="126" y="80" class="sans" font-size="30" font-weight="800" fill="#6EE7B7">NimitAI</text>
+    <text x="126" y="104" class="mono" font-size="12" fill="#D6D3D1">building since</text>
+    <text x="126" y="122" class="mono" font-size="12" fill="#78716C">Feb 2026</text>
+  </g>
+</svg>
