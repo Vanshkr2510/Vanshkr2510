@@ -1,4 +1,13 @@
-<img src="./assets/hero.svg" width="100%" alt="VANSH — AI Automation Engineer. I automate the boring parts of sales." />
+
+assets/
+  brand_footer.svg
+  divider.svg
+  hero.svg
+  impact.svg
+  research_agent.svg
+  services.svg
+  workflow.svg
+README.md<img src="./assets/hero.svg" width="100%" alt="VANSH — AI Automation Engineer. I automate the boring parts of sales." />
 
 <p align="left">
   <img src="https://img.shields.io/badge/AI_Automation_Engineer-FF6D3A?style=flat-square&logo=n8n&logoColor=white" alt="AI Automation Engineer" />
